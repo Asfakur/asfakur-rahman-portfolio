@@ -1,12 +1,15 @@
 import React from 'react';
+import Hero from './hero';
 import ProjectSummary from './ProjectSummary/ProjectSummary';
 import Top from './Top/Top';
 
 const Home = () => {
     return (
         <div>
-            <Top></Top>
-            <ProjectSummary></ProjectSummary>
+
+            <Hero/>
+            {/* <Top></Top> */}
+            {/* <ProjectSummary></ProjectSummary> */}
         </div>
     );
 };
