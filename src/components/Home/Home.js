@@ -1,14 +1,16 @@
 import React from 'react';
 import Hero from './hero';
 import ProjectSummary from './ProjectSummary/ProjectSummary';
-import Top from './Top/Top';
+import Skill from './Skills/skill';
+
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-light'>
 
             <Hero/>
-            {/* <Top></Top> */}
+            <Skill/>
+           
             {/* <ProjectSummary></ProjectSummary> */}
         </div>
     );

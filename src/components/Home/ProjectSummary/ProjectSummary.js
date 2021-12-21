@@ -12,7 +12,7 @@ const ProjectSummary = () => {
     }
 
     return (
-        <section>
+        <section className='bg-info text-white'>
             <h1 className="text-center my-5">My Recent Projects</h1>
             <div className="row container-fluid">
                 {

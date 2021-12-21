@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-light">
+    <div className="">
       <div className="row container-fluid">
         <div className="col-md-6 d-flex align-items-center">
           <div>
