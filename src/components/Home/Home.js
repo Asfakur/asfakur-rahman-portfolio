@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './hero';
 import ProjectSummary from './ProjectSummary/ProjectSummary';
 import Skill from './Skills/skill';
+import Specialty from './Specialty/specialty';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
 
             <Hero/>
             <Skill/>
+            <Specialty/>
            
             {/* <ProjectSummary></ProjectSummary> */}
         </div>
