@@ -17,9 +17,9 @@ const Header = () => {
                 </Nav>
                 <Nav>
                     <Link className="active nav-link text-white mx-3 h6" to="/project">Project</Link>
-                    <Link className="nav-link text-white mx-3 h6" to="/blog">Blog</Link>
-                    <Link className="nav-link text-white mx-3 h6" to="/resume">Resume</Link>
-                    <Link className="nav-link text-white mx-3 h6" to="/about">About</Link>
+                    {/* <Link className="nav-link text-white mx-3 h6" to="/blog">Blog</Link> */}
+                    {/* <Link className="nav-link text-white mx-3 h6" to="/resume">Resume</Link> */}
+                    <Link className="nav-link text-white mx-3 h6" to="/contact">Contact</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

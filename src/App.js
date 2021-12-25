@@ -8,8 +8,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Header from './components/Header/Header';
+import Header from './components/Shared/header';
 import Home from './components/Home/Home';
+import Footer from './components/Shared/footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         </Route>
 
       </Switch>
+      <Footer />
     </Router>
   );
 }

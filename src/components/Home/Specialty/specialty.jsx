@@ -1,9 +1,9 @@
 import React from "react";
-import { FaCheckCircle, FaFileCode, FaRegFileCode } from "react-icons/fa";
+import { FaCheckCircle, FaRegFileCode, FaChalkboardTeacher } from "react-icons/fa";
 
 const Specialty = () => {
   return (
-    <div className="row container-fluid">
+    <div className="row container-fluid d-flex justify-content-around pb-5">
       <div className="bg-primary text-white col-md-3 rounded text-center p-3 m-3 shadow-lg">
         <h2>
           <FaCheckCircle />
@@ -26,7 +26,7 @@ const Specialty = () => {
       </div>
       <div className="bg-info text-white col-md-3 rounded text-center p-3 m-3 shadow-lg">
         <h2>
-          <FaRegFileCode />
+          <FaChalkboardTeacher />
         </h2>
         <h3>Enthusiastic to new Technology</h3>
         <p>
