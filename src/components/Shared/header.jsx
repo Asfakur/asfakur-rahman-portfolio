@@ -19,7 +19,7 @@ const Header = () => {
                     <Link className="active nav-link text-white mx-3 h6" to="/projects">Projects</Link>
                     {/* <Link className="nav-link text-white mx-3 h6" to="/blog">Blog</Link> */}
                     {/* <Link className="nav-link text-white mx-3 h6" to="/resume">Resume</Link> */}
-                    <Link className="nav-link text-white mx-3 h6" to="/contact">Contact</Link>
+                    {/* <Link className="nav-link text-white mx-3 h6" to="/contact">Contact</Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

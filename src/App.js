@@ -5,8 +5,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Header from './components/Shared/header';
 import Home from './components/Home/Home';
@@ -25,10 +24,6 @@ function App() {
         <Route path="/">
           <Home></Home>
         </Route>
-        <Route path="/about">
-          {/* <About /> */}
-        </Route>
-
       </Switch>
       <Footer />
     </Router>

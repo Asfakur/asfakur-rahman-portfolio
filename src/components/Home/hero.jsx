@@ -9,12 +9,12 @@ const Hero = () => {
             <h1>I am Asfakur Rahman</h1>
             <h3>Junior Web developer</h3>
             <p>
-              I am Passionate to build quality web app using latest technology
+              I am Passionate to build quality web applications using latest technology
               like ReactJs, Bootstrap, Firebase, node.js, express.js, mongodb
               etc.
             </p>
             <a
-              href="https://drive.google.com/file/d/14ZnuX9_nwsaCKgPHw8M0WckN31__kqbI/view?usp=sharing"
+              href="https://drive.google.com/file/d/1WeDg9j2LgxFNkZRc4fg9m6vB4QH7JtUx/view?usp=sharing"
               className="btn btn-warning text-white"
             >
               Download Resume
