@@ -38,7 +38,6 @@ const Footer = () => {
             </h5>
             <p>Dhaka Cantonment Dhaka-1206</p>
             <p>Email: saikat.fix@gmail.com</p>
-            <p>Phone: Please Contact with email</p>
           </div>
         </div>
       </div>

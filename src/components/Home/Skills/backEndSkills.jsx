@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsWithIcons from "./skillsWithIcons";
-import frontEndSkills from "../../../Data/frontEndSkillsArray";
+import backEndSkills from "../../../Data/backEndSkillsArray";
 
 import BackEndLottie from "../../Lotties/lottiesTemplate/backendLottie";
 
@@ -16,8 +16,8 @@ const BackEndSkills = () => {
       </div>
 
       <div className="col-md-6 d-flex align-items-center justify-content-center">
-        {/* <h3>Front-End Skills</h3>; */}
-        <SkillsWithIcons skills={frontEndSkills} />
+        {/* <h3>back-End Skills</h3>; */}
+        <SkillsWithIcons skills={backEndSkills} />
       </div>
     </React.Fragment>
   );

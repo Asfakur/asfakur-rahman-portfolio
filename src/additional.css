@@ -1,3 +1,12 @@
-.crp{
-    cursor: pointer;
+.crp {
+  cursor: pointer;
+}
+
+/* hc => hover container */
+.hc {
+  transition: all 0.5s;
+}
+
+.hc:hover {
+  transform: scale(1.02);
 }

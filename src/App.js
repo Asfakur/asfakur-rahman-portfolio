@@ -11,6 +11,7 @@ import {
 import Header from './components/Shared/header';
 import Home from './components/Home/Home';
 import Footer from './components/Shared/footer';
+import Projects from './components/Projects/projects';
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
     <Router>
       <Header></Header>
       <Switch>
+        <Route path="/projects">
+          <Projects />
+        </Route>
         <Route path="/">
           <Home></Home>
         </Route>
