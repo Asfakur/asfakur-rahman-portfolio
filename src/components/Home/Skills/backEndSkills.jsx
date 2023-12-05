@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsWithIcons from "./skillsWithIcons";
-import backEndSkills from "../../../Data/backEndSkillsArray";
+import backEndSkills from "../../../Data/BackEndSkillsArray";
 
 import BackEndLottie from "../../Lotties/lottiesTemplate/backendLottie";
 
